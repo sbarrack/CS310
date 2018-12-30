@@ -1,13 +1,14 @@
-/* Stephen Barrack
- * cssc0868
- * Program #1
- */
+/*  Stephen Barrack
+    cssc0868
+    Program #2
+*/
+
 package data_structures;
 
 import java.util.Iterator;
 import java.util.NoSuchElementException;
 
-public interface LinearListADT<E> extends Iterable<E> {
+public interface LinearListADT<E extends Comparable<E>> extends Iterable<E> {
     public static final int DEFAULT_MAX_CAPACITY = 100;
     
 //  Adds the Object obj to the beginning of list and returns true if the list is not full.
