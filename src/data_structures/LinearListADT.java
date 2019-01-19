@@ -1,8 +1,7 @@
-/*  Stephen Barrack
-    cssc0868
-    Program #2
-*/
-
+/* Stephen Barrack
+ * cssc0868
+ * Program #2
+ */
 package data_structures;
 
 import java.util.Iterator;
